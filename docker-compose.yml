@@ -1,0 +1,10 @@
+version: '3'
+services;
+web;
+build:
+ports:
+- "3000:300"
+links:
+- "mongo"
+mongo:
+image: "mongo:latest:"
